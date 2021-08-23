@@ -1,0 +1,38 @@
+/* Design tokens */
+:root {
+    --clr-primario: #ff6f00;
+    --clr-primario-claro: #ffa040;
+    --clr-primario-oscuro:#c43e00;
+    --clr-secundario: #37474f;
+    --clr-secundario-claro:#62727b;
+    --clr-secundario-oscuro:#102027;
+    --clr-blanco:#F9F9F9;
+    --clr-blanco-alt1:#ffffff;
+    --clr-blanco-alt2:#c6c6c6;
+    --ff-titulos: "Helvetica Neue";
+    --ff-body: "Suisse Intl";
+    /* https://type-scale.com */
+    --h1: 49px;
+    --h2: 39px;
+    --h3: 25px;
+    --h4: 20px;
+  }
+  
+  /* Logo */
+  .logo{}
+
+  /* Carrousel */  
+    .carrousel{}
+    .carrousel__titulo{}
+    .carrousel__boton{}
+
+    /* https://cloudinary.com/ */
+    
+      /* Logo */
+      .logo{}
+
+        /* Logo */
+        .logo{}
+
+          /* Logo */
+          .logo{}
