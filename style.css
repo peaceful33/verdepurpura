@@ -24,15 +24,25 @@
   /* Carrousel */  
     .carrousel{}
     .carrousel__titulo{}
+    .carrousel__subtitulo{}
     .carrousel__boton{}
+    .carrousel_imagen{}
 
-    /* https://cloudinary.com/ */
+
+/* https://cloudinary.com/ */
     
-      /* Logo */
-      .logo{}
+  /* Noticias */
+    .noticias_titulo{}
+    .noticias_item1{}
+    .noticias_item2{}
+    .noticias_item3{}
 
-        /* Logo */
-        .logo{}
+  /* Galeria */
+    .galeria_titulo{}
+    .galeria_imagen1{}
+    .galeria_imagen2{}
+    .galeria_imagen3{}
+    .galeria_imagen4{}
 
-          /* Logo */
-          .logo{}
+  /* Contacto */
+    .contacto_texto{}
