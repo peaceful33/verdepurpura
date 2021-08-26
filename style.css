@@ -22,11 +22,15 @@
   .logo{}
 
   /* Carrousel */  
-    .carrousel{}
-    .carrousel__titulo{}
-    .carrousel__subtitulo{}
-    .carrousel__boton{}
-    .carrousel_imagen{}
+  .carrousel{
+    display: flex;
+  }
+  .carrousel__titulo{}
+  .carrousel__subtitulo{}
+  .carrousel__boton{}
+  .carrousel__imagen{
+    max-width: 100%;
+  }
 
 
 /* https://cloudinary.com/ */
