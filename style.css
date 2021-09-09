@@ -1,88 +1,133 @@
-/* Design tokens */
+/*** Design tokens ***/
 :root {
-    --clr-primario: #ff6f00;
-    --clr-primario-claro: #ffa040;
-    --clr-primario-oscuro:#c43e00;
-    --clr-secundario: #37474f;
-    --clr-secundario-claro:#62727b;
-    --clr-secundario-oscuro:#102027;
-    --clr-blanco:#F9F9F9;
-    --clr-blanco-alt1:#ffffff;
-    --clr-blanco-alt2:#c6c6c6;
-    --ff-titulos: "Helvetica Neue";
-    --ff-body: "Suisse Intl";
-    /* https://type-scale.com */
-    --h1: 49px;
-    --h2: 39px;
-    --h3: 25px;
-    --h4: 20px;
-  }
+  --clr-primario: #ff6f00;
+  --clr-primario-claro: #ffa040;
+  --clr-primario-oscuro: #c43e00;
+  --clr-secundario: #37474f;
+  --clr-secundario-claro: #62727b;
+  --clr-secundario-oscuro: #102027;
+  --clr-blanco: #F9F9F9;
+  --clr-blanco-alt1: #ffffff;
+  --clr-blanco-alt2: #c6c6c6;
+  --ff-titulos: "Helvetica Neue";
+  --ff-body: "Suisse Intl";
+  --h1: 49px;
+  --h2: 39px;
+  --h3: 25px;
+  --h4: 20px
+}
+/*** Reset ***/
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+li {
+  padding-inline: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
 
-/* Base */
+/*** Base ***/
+body {
+  color: var(--clr-secundario-oscuro);
+  background-color: var(--clr-blanco);
+  font-family: var(--ff-body)
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--ff-titulos)
+}
+/* Typescale */
+h1 {
+  font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+}
+h6 {
+  font-size: var(--h6);
+}
 
-  html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    color: var(--clr-secundario-oscuro);
-    background-color: var(--clr-blanco);
-    font-family: var(--ff-body);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-family: var(--ff-titulos);
-  }
-  
-  ul,
-  ol {
-    list-style: none;
-  }
-  img {
-    max-width: 100%;
-    display: block;
-  }
-  
-  /* Logo */
-  .logo{}
+/*** Componentes ***/
+/* Logo */
+.logo {
+  height: 300px;
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Carrousel */
+.carrousel {
+  display: flex
+}
+.carrousel__titulo {
 
-  /* Carrousel */  
-  .carrousel{
-    display: flex;
-  }
-  .carrousel__titulo{}
-  .carrousel__subtitulo{}
-  .carrousel__boton{}
-  .carrousel__imagen{
-    max-width: 100%;
-  }
+}
+.carrousel__subtitulo {
 
+}
+.carrousel__boton {
 
-/* https://cloudinary.com/ */
-    
-  /* Noticias */
-    .noticias_titulo{}
-    .noticias_item1{}
-    .noticias_item2{}
-    .noticias_item3{}
+}
+.carrousel__imagen {
+  max-width: 100%
+}
 
-  /* Galeria */
-    .galeria_titulo{}
-    .galeria_imagen1{}
-    .galeria_imagen2{}
-    .galeria_imagen3{}
-    .galeria_imagen4{}
+/* Noticias */
+.noticias_titulo {
 
-  /* Contacto */
-    .contacto_texto{}
+}
+.noticias_item1 {
+
+}
+.noticias_item2 {
+
+}
+.noticias_item3 {
+
+}
+/* Galeria */
+.galeria_titulo {
+
+}
+.galeria_imagen1 {
+
+}
+.galeria_imagen2 {
+
+}
+.galeria_imagen3 {
+
+}
+.galeria_imagen4 {
+
+}
+/* Contacto */
+.contacto_texto {
+
+}
