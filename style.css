@@ -1,3 +1,12 @@
+/*** Imports ***/
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("https://res.cloudinary.com/txikuri/raw/upload/v1631207965/verdepurpura/HelveticaNeueLTStd-Bd_wkdfdc.woff2");
+}
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("https://res.cloudinary.com/txikuri/raw/upload/v1631207965/verdepurpura/SuisseIntl-Regular_uh5ovm.woff2");
+}
 /*** Design tokens ***/
 :root {
   --clr-primario: #ff6f00;
