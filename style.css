@@ -122,17 +122,31 @@ h6 {
 }
 /* Main */
 .main{
-display:flex;
-}
-
-/* Galeria */
-.galeria{
-display:flex;
-}
-
-.galeria_proyecto {
-
-}
+  display:flex;
+  }
+  
+  .contacto {
+     background-color: #0d2065;
+     width: 20%;
+  }
+  
+  .news {
+       background-color: #fdb44d;
+       width: 30%;
+  }
+  
+  /* Galeria */
+  .galeria{
+  display:flex;
+  width: 50%;
+  }
+  
+  .galeria_proyecto {
+  flex:1;
+  
+  
+  }
+  
 .galeria_proyecto h2 {
 
 }
