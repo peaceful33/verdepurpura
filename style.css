@@ -120,6 +120,11 @@ h6 {
 .noticias_item3 {
 
 }
+/* Main */
+.main{
+display:flex;
+}
+
 /* Galeria */
 .galeria{
 display:flex;
