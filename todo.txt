@@ -1,6 +1,7 @@
 ## Iker
 - Poner imagenes con alt
 - Dividir secciones con etiquetas section
+- Galería
 
 ## Sebastian
 - Subir imagenes del proyecto a cloudinary y copiar urls en imagenes.txt

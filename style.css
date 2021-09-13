@@ -121,19 +121,20 @@ h6 {
 
 }
 /* Galeria */
-.galeria_titulo {
+.galeria{
+display:flex;
+}
+
+.galeria_proyecto {
 
 }
-.galeria_imagen1 {
+.galeria_proyecto h2 {
 
 }
-.galeria_imagen2 {
+.galeria_proyecto img {
 
 }
-.galeria_imagen3 {
-
-}
-.galeria_imagen4 {
+.galeria_proyecto p {
 
 }
 /* Contacto */
