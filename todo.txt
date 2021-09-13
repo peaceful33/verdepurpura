@@ -1,3 +1,6 @@
+##General
+-Imagenes
+
 ## Iker
 - Poner imagenes con alt
 - Dividir secciones con etiquetas section
