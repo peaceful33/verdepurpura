@@ -121,7 +121,7 @@ h6 {
 }
 .news_item {
   display:flex;
-  justify-content:space-evenly;
+  justify-content:left;
 
 }
 .news_img{
@@ -129,6 +129,11 @@ h6 {
 }
 .news_headline{
   font-family: var(--ff-titulos);
+}
+
+.news_summary{
+  font-family: var(--ff-body);
+  font-size: 10pt;
 }
 /* Main */
 .main{
