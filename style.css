@@ -117,13 +117,15 @@ h6 {
 
 }
 .news_item {
+  display:flex;
+  justify-content: space-around;
 
 }
 .news_img{
-
+  width: 35%;
 }
 .news_headline{
-  
+  width: 65%;
 }
 /* Main */
 .main{
