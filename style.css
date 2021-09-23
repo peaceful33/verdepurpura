@@ -127,6 +127,10 @@ h6 {
 .news_img{
 
 }
+.news_text{
+  display:flex;
+  flex-direction: column;
+}
 .news_headline{
   font-family: var(--ff-titulos);
 }
