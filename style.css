@@ -121,7 +121,7 @@ h6 {
 }
 .news_item {
   display:flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
 
 }
 .news_img{
