@@ -111,14 +111,20 @@ h6 {
 
 .news{
   width: 30%;
+  padding: 30 60 30 60;
 }
 .news_titulo {
 
 }
-.news_item1 {
+.news_item {
 
 }
+.news_img{
 
+}
+.news_headline{
+  
+}
 /* Main */
 .main{
   display:flex;
