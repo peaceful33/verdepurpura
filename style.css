@@ -122,6 +122,9 @@ h6 {
 .news_item {
   display:flex;
   justify-content:left;
+  margin: 20px 0;
+  gap: 20px;
+}
 
 }
 .news_img{
@@ -133,6 +136,7 @@ h6 {
 }
 .news_headline{
   font-family: var(--ff-titulos);
+  margin-bottom: 10px;
 }
 
 .news_summary{
