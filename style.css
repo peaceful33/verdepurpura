@@ -112,22 +112,23 @@ h6 {
 .news{
   width: 30%;
   padding: 30 60 30 60;
-}
-.news_titulo {
   display: flex;
   flex-direction: column;
+}
+.news_titulo {
+  font-family: var(--ff-titulos);
   justify-content: space-around;
 }
 .news_item {
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 .news_img{
 
 }
 .news_headline{
-
+  font-family: var(--ff-titulos);
 }
 /* Main */
 .main{
