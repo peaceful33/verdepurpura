@@ -82,6 +82,17 @@ h6 {
 }
 
 /*** Componentes ***/
+/* Header */
+.header {
+display: flex;
+}
+.header__logo {
+/* TODO */
+}
+.header__menu {
+ background-color: var(--clr-primario-claro);
+}
+
 /* Logo */
 .logo {
   height: 300px;
@@ -147,25 +158,25 @@ h6 {
 .main{
   display:flex;
   }
-  
+
   .contacto {
      background-color: #0d2065;
      width: 20%;
   }
-  
-  
+
+
   /* Galeria */
   .galeria{
   display:flex;
   width: 50%;
   }
-  
+
   .galeria_proyecto {
   flex:1;
-  
-  
+
+
   }
-  
+
 .galeria_proyecto h2 {
 
 }
