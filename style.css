@@ -114,11 +114,13 @@ h6 {
   padding: 30 60 30 60;
 }
 .news_titulo {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .news_item {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 .news_img{
