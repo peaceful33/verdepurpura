@@ -108,18 +108,17 @@ h6 {
 }
 
 /* Noticias */
-.noticias_titulo {
+
+.news{
+  width: 30%;
+}
+.news_titulo {
 
 }
-.noticias_item1 {
+.news_item1 {
 
 }
-.noticias_item2 {
 
-}
-.noticias_item3 {
-
-}
 /* Main */
 .main{
   display:flex;
@@ -130,10 +129,6 @@ h6 {
      width: 20%;
   }
   
-  .news {
-       background-color: #fdb44d;
-       width: 30%;
-  }
   
   /* Galeria */
   .galeria{
