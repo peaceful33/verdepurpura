@@ -205,16 +205,17 @@ font-family: (--ff-body);
     padding: 60px 30px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-  display:flex;
-  width: 50%;
+    width: 50%;
   }
 .galeria_items{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
   .galeria_titulo{
+
     font-family: var(--ff-titulos);
     justify-content: left;
+    margin-bottom: 10px;
   }
 
   .galeria_proyecto {
