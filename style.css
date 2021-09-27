@@ -188,8 +188,14 @@ font-family: (--ff-body);
   }
 
   .contacto {
+    border-bottom: 2px solid black;
      background-color: #F9F9F9;
      width: 20%;
+     display: grid;
+     place-content: center;
+     overflow-wrap: anywhere;
+     writing-mode: vertical-lr;
+     transform: rotate(180deg);
   }
 
 
