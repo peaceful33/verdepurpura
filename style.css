@@ -190,5 +190,7 @@ display: flex;
 }
 /* Contacto */
 .contacto_texto {
-
+  color: #ff6f00;
+  font-size: var(--h3);
+  font-family: "Suisse Intl";
 }
