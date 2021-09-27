@@ -145,9 +145,7 @@ font-family: (--ff-body);
 /* Noticias */
 
 .news{
-  outline: black;
-  outline-width: 3px;
-  outline-color: black;
+  border: 3px solid black;
   width: 30%;
   padding: 60px 30px;
   display: flex;
