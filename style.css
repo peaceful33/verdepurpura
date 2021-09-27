@@ -210,7 +210,7 @@ font-family: (--ff-body);
 .galeria_items{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
   .galeria_titulo{
 
@@ -225,15 +225,6 @@ font-family: (--ff-body);
 
   }
 
-.galeria_proyecto h2 {
-
-}
-.galeria_proyecto img {
-
-}
-.galeria_proyecto p {
-
-}
 /* Contacto */
 .contacto_texto {
   color: #ff6f00;
