@@ -105,19 +105,41 @@ display: flex;
 }
 /* Carrousel */
 .carrousel {
-  display: flex
+  width: 100%;
+  display: flex;
+  border: 3px solid hotpink; 
 }
+
+.carrousel > * {
+  border: 2px solid blue; 
+  flex: 1;
+ 
+}
+
 .carrousel__titulo {
+font-family: var(--ff-titulos);
+font-size: var(--h4);
+color: black;
 
 }
 .carrousel__subtitulo {
+font-family: (--ff-body);
+}
+
+.carrousel__boton button {
+  justify-self: center;
 
 }
-.carrousel__boton {
+.carrousel__boton button {
+  width: 140px;
+  background: var(--clr-primario);
 
 }
+
+/* https://browserdefaultstyles.com */
 .carrousel__imagen {
-  max-width: 100%
+  max-width: 50%; 
+
 }
 
 /* Noticias */
