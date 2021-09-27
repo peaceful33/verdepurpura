@@ -207,6 +207,14 @@ font-family: (--ff-body);
   display:flex;
   width: 50%;
   }
+.galeria_items{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+  .galeria_titulo{
+    font-family: var(--ff-titulos);
+    justify-content: space-around;
+  }
 
   .galeria_proyecto {
   flex:1;
