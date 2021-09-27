@@ -202,6 +202,7 @@ font-family: (--ff-body);
 
   /* Galeria */
   .galeria{
+    padding: 60px 30px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
   display:flex;
@@ -213,7 +214,7 @@ font-family: (--ff-body);
 }
   .galeria_titulo{
     font-family: var(--ff-titulos);
-    justify-content: space-around;
+    justify-content: left;
   }
 
   .galeria_proyecto {
