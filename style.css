@@ -149,7 +149,7 @@ font-family: (--ff-body);
   border-right: 3px solid black;
   border-bottom: 3px solid black;
   width: 30%;
-  padding: 60px 30px;
+  padding: 30px 30px;
   display: flex;
   flex-direction: column;
 }
@@ -202,7 +202,7 @@ font-family: (--ff-body);
 
   /* Galeria */
   .galeria{
-    padding: 60px 30px;
+    padding: 30px 30px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     width: 50%;
@@ -210,6 +210,7 @@ font-family: (--ff-body);
 .galeria_items{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
   .galeria_titulo{
 
