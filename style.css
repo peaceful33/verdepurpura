@@ -123,12 +123,16 @@ display: flex;
 /* Noticias */
 
 .news{
+  outline-width: 3px;
+  outline-color: black;
   width: 30%;
   padding: 60px 30px;
   display: flex;
   flex-direction: column;
 }
 .news_titulo {
+  outline-width: 3px;
+  outline-color: black;
   font-family: var(--ff-titulos);
   justify-content: space-around;
 }
@@ -162,7 +166,7 @@ display: flex;
   }
 
   .contacto {
-     background-color: #0d2065;
+     background-color: #ffffff;
      width: 20%;
   }
 
