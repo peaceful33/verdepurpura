@@ -89,10 +89,10 @@ display: flex;
 .header__logo {
 /* TODO */width: 400px;}
 .header__menu {
- background-color: var(--clr-primario-claro);
- flex: 1;
- /* align-self: end; */
- text-align: right;
+  flex: 1;
+  align-self: end;
+  text-align: right;
+  padding: 0 0.5rem 0.5rem 0;
 }
 
 /* Logo */
