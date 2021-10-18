@@ -85,6 +85,7 @@ h6 {
 /* Header */
 .header {
 display: flex;
+padding: 50px 30px 30px 30px;
 }
 .header__logo {
 /* TODO */width: 400px;}
@@ -106,6 +107,7 @@ display: flex;
 /* Carrousel */
 .carrousel {
   width: 100%;
+  padding: 30px 30px;
   display: flex;
   border-top: 3px solid black;
   border-right: 3px solid black;
