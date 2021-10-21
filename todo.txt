@@ -2,14 +2,14 @@
 
 -Imagenes
 -Hovers Galería
--Puntitos carrousel
+-Puntitos carrousel (NTH)
 -Noticias vincular
 -Definir proyectos
 -Texto proyectos
 -Imagenes proyectos
 -Tamaño igualado imágenes
 -subir cloudinary
--Pop over cotización (nice to have)
+-Pop over cotización (NTH)
 -Padding carrousel
 -Responsivo header (hamburguesa)
 -Responsivo carrousel
