@@ -134,8 +134,13 @@ font-family: (--ff-body);
 
 }
 .carrousel__titulo button {
-  width: 140px;
   background: var(--clr-primario);
+  width: 400px;
+  height: 50px;
+  color: white;
+  font-size: 13pt;
+  border-style: none;
+  text-transform: uppercase;
 
 }
 
