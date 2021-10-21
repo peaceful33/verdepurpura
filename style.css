@@ -129,11 +129,11 @@ color: var(--clr-secundario-oscuro);
 font-family: (--ff-body);
 }
 
-.carrousel__boton button {
+.carrousel__titulo button {
   justify-self: center;
 
 }
-.carrousel__boton button {
+.carrousel__titulo button {
   width: 140px;
   background: var(--clr-primario);
 
