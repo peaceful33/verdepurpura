@@ -108,9 +108,9 @@ padding: 50px 30px 30px 30px;
 .carrousel {
   width: 100%;
   display: flex;
-  border-top: 3px solid black;
-  border-right: 3px solid black;
-  border-left: 3px solid black;
+  border-top: 3px solid var(--clr-secundario-oscuro);
+  border-right: 3px solid var(--clr-secundario-oscuro);
+  border-left: 3px solid var(--clr-secundario-oscuro);
 }
 
 .carrousel > * {
@@ -122,7 +122,7 @@ padding: 50px 30px 30px 30px;
 font-family: var(--ff-titulos);
 padding: 30px 30px;
 font-size: var(--h4);
-color: black;
+color: var(--clr-secundario-oscuro);
 
 }
 .carrousel__subtitulo {
@@ -148,9 +148,9 @@ font-family: (--ff-body);
 /* Noticias */
 
 .news{
-  border-top: 3px solid black;
-  border-right: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid var(--clr-secundario-oscuro);
+  border-right: 3px solid var(--clr-secundario-oscuro);
+  border-bottom: 3px solid var(--clr-secundario-oscuro);
   width: 30%;
   padding: 30px 30px;
   display: flex;
@@ -190,9 +190,9 @@ font-family: (--ff-body);
   }
 
   .contacto {
-    border-top: 3px solid black;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 3px solid var(--clr-secundario-oscuro);
+    border-right: 3px solid var(--clr-secundario-oscuro);
+    border-bottom: 3px solid var(--clr-secundario-oscuro);
      background-color: #F9F9F9;
      width: 20%;
      display: grid;
@@ -206,8 +206,8 @@ font-family: (--ff-body);
   /* Galeria */
   .galeria{
     padding: 30px 30px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 3px solid var(--clr-secundario-oscuro);
+    border-bottom: 3px solid var(--clr-secundario-oscuro);
     width: 50%;
   }
 .galeria_items{
@@ -240,7 +240,7 @@ font-family: (--ff-body);
 
 /* Contacto */
 .contacto_texto {
-  color: #ff6f00;
+  color: var(--clr-primario);
   font-size: var(--h3);
   font-family: "Suisse Intl";
 }
