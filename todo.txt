@@ -1,13 +1,21 @@
 ##General
+
 -Imagenes
+-Hovers Galería
+-Puntitos carrousel
+-Noticias vincular
+-Definir proyectos
+-Texto proyectos
+-Imagenes proyectos
+-Tamaño igualado imágenes
+-subir cloudinary
+-Pop over cotización (nice to have)
+-Padding carrousel
+-Responsivo header (hamburguesa)
+-Responsivo carrousel
+-Quienes somos
+-Responsivo news
+-Responsivo Galería
+-Responsivo contacto
+-Responsivo quienes somos
 
-## Iker
-- Poner imagenes con alt
-- Dividir secciones con etiquetas section
-- Galería
-
-## Sebastian
-- Subir imagenes del proyecto a cloudinary y copiar urls en imagenes.txt
-
-## Fer
-- Version movil prototipo

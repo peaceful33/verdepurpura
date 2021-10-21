@@ -232,7 +232,19 @@ font-family: (--ff-body);
 
 }
 
-.galeria_proyecto img:hover {
+.galeria_proyecto img:after {
+ 
+  position: absolute;
+  content: "";
+  inset: 0;
+  opacity: 1;
+  z-index: -1;
+  transition: opacity 0.5s ease-out;
+
+}
+
+
+.galeria_proyecto img:hover::after {
   
   filter:opacity(0.5);
  
