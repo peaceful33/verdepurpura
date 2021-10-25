@@ -100,7 +100,7 @@ padding: 50px 30px 30px 30px;
 .logo {
   height: 300px;
   display: flex;
-  background-color: aliceblue;
+  background-color: var(--clr-blanco);
   justify-content: space-between;
   align-items: center;
 }
