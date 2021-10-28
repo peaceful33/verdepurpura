@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Verde Purpura | Agencia creativa</title>
+  <link rel="carrousel" href="carrousel.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -32,6 +33,42 @@
     <h2>Somos verde/purpura</h2>
     <button>Cotiza tu proyecto</button>
   </div>  
+
+  <input class="open" type="radio" id="uno" name="carrusel" aria-hidden="true" hidden="" checked="checked">
+  <figure>
+    <img src="http://fakeimg.pl/2000x800/AD1457/fff/?text=Imagen 1">
+    <!-- <figcaption>
+      Hola soy el figcaption
+    </figcaption> -->
+  </figure>
+  <input class="open" type="radio" id="dos" name="carrusel" aria-hidden="true" hidden="">
+  <figure>
+    <img src="http://fakeimg.pl/2000x800/00BCD4/fff/?text=Imagen 2">
+  </figure>
+  <input class="open" type="radio" id="tres" name="carrusel" aria-hidden="true" hidden="">
+  <figure>
+    <img src="http://fakeimg.pl/2000x800/651FFF/fff/?text=Imagen 3">
+  </figure>
+
+<!--   <label for="tres" class="carrusel-nav anterior uno">‹</label>
+  <label for="dos" class="carrusel-nav siguiente uno">›</label>
+  <label for="uno" class="carrusel-nav anterior dos">‹</label>
+  <label for="tres" class="carrusel-nav siguiente dos">›</label>
+  <label for="dos" class="carrusel-nav anterior tres">‹</label>
+  <label for="uno" class="carrusel-nav siguiente tres">›</label> -->
+
+  <ol class="carrusel-dots">
+    <li>
+      <label for="uno" class="dot">•</label>
+    </li>
+    <li>
+      <label for="dos" class="dot">•</label>
+    </li>
+    <li>
+      <label for="tres" class="dot">•</label>
+    </li>
+  </ol>
+
   <div class="carrousel__imagen">
     <img src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632155648/Mural_final-01_mp0jxf.jpg" alt="proyectos" />
   </div> 
