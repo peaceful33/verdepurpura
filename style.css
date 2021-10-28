@@ -120,7 +120,7 @@ padding: 50px 30px 30px 30px;
 
 .carrousel__titulo {
 font-family: var(--ff-titulos);
-padding: 30px 30px;
+padding: 60px 30px 30px 30px;
 font-size: var(--h2);
 color: var(--clr-secundario-oscuro);
 
