@@ -1,101 +1,101 @@
 body {
-    font-family: -apple-system, sans-serif;
-    height: 100vh;
-    font-size: var(--font-size);
-  }
-  
-  .carrusel {
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
-    width: 100%;
-  }
-  
-  .carrusel .open:checked + figure {
-    position: static;
-    opacity: 100;
-  }
-  
-  .carrusel figure {
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-  }
-  
-  .carrusel figure img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-  }
-  
-  .carrusel-nav {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
-    color: #fff;
-    cursor: pointer;
-    display: none;
-    font-size: 40px;
-    height: 40px;
-    line-height: 35px;
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
-    transform: translate(0, -50%);
-    transition: opacity 0.4s linear;
-    text-align: center;
-    width: 40px;
-    z-index: 10;
-  }
-  
-  .carrusel-nav.anterior {
-    left: 0.5ch;
-  }
-  
-  .carrusel-nav.siguiente {
-    right: 0.5ch;
-  }
-  
-  .carrusel-nav:hover {
-    opacity: 0.8;
-  }
-  
-  #uno:checked ~ .uno,
-  #dos:checked ~ .dos,
-  #tres:checked ~ .tres {
-    display: block;
-  }
-  
-  .carrusel-dots {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
-  }
-  
-  .carrusel-dots li {
-    display: inline-block;
-    margin: 0 0.5rem;
-  }
-  
-  .dot {
-    color: #fff;
-    cursor: pointer;
-    display: block;
-    font-size: 2rem;
-    transition: opacity 0.4s linear;
-  }2
-  
-  .dot:hover {
-    opacity: 0.8;
-  }
-  
-  #uno:checked ~ .uno ~ .carrusel-dots li:nth-child(1) .dot,
-  #dos:checked ~ .dos ~ .carrusel-dots li:nth-child(2) .dot,
-  #tres:checked ~ .tres ~ .carrusel-dots li:nth-child(3) .dot {
-    color: #428bca;
-  }
+  font-family: -apple-system, sans-serif;
+  height: 100vh;
+  font-size: var(--font-size);
+}
+
+.carrousel-container {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+.carrousel-container .open:checked + figure {
+  position: static;
+  opacity: 100;
+}
+
+.carrousel-container figure {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+
+.carrousel-container figure img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.carrusel-nav {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(0, -50%);
+  transition: opacity 0.4s linear;
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carrusel-nav.anterior {
+  left: 0.5ch;
+}
+
+.carrusel-nav.siguiente {
+  right: 0.5ch;
+}
+
+.carrusel-nav:hover {
+  opacity: 0.8;
+}
+
+#uno:checked ~ .uno,
+#dos:checked ~ .dos,
+#tres:checked ~ .tres {
+  display: block;
+}
+
+.carrusel-dots {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carrusel-dots li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.dot {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 2rem;
+  transition: opacity 0.4s linear;
+}
+
+.dot:hover {
+  opacity: 0.8;
+}
+
+#uno:checked ~ .uno ~ .carrusel-dots li:nth-child(1) .dot,
+#dos:checked ~ .dos ~ .carrusel-dots li:nth-child(2) .dot,
+#tres:checked ~ .tres ~ .carrusel-dots li:nth-child(3) .dot {
+  color: #428bca;
+}

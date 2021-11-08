@@ -1,174 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verde Purpura | Agencia creativa</title>
+    <!-- <link rel="carrousel" href="carrousel.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Verde Purpura | Agencia creativa</title>
-  <link rel="carrousel" href="carrousel.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- https://cloudinary.com -->
 
-<body>
-  <!-- https://cloudinary.com -->
-  
-  <!-- todas las imagenes con alt -->
-  <section class="header">
+    <!-- todas las imagenes con alt -->
+    <section class="header">
+      <img
+        class="header__logo"
+        src="https://res.cloudinary.com/peaceful/image/upload/v1632407681/LOGORecurso_1_ami4fe.png"
+        alt="Logo Verde Purpura"
+      />
 
-      <img class="header__logo" src="https://res.cloudinary.com/peaceful/image/upload/v1632407681/LOGORecurso_1_ami4fe.png" alt="Logo Verde Purpura" />
+      <div class="header__menu">...</div>
+    </section>
 
-    <div class="header__menu">
-      ...
-    </div>
+    <section class="carrousel">
+      <div class="carrousel__titulo">
+        <h1>INOVACIÓN<br />DISEÑO<br />FUNCIONALIDAD</h1>
+        <h2>Somos verde/purpura</h2>
+        <button>Cotiza tu proyecto</button>
+      </div>
 
-   
-  </section>
-
-
-<section class="carrousel">
-
-  <div class="carrousel__titulo">
-    <h1>INOVACIÓN<br />DISEÑO<br />FUNCIONALIDAD</h1>
-    <h2>Somos verde/purpura</h2>
-    <button>Cotiza tu proyecto</button>
-  </div>  
-
-  <input class="open" type="radio" id="uno" name="carrusel" aria-hidden="true" hidden="" checked="checked">
-  <figure>
-    <img src="http://fakeimg.pl/2000x800/AD1457/fff/?text=Imagen 1">
-    <!-- <figcaption>
+      <div class="carrousel-container">
+        <input
+          class="open"
+          type="radio"
+          id="uno"
+          name="carrousel-container"
+          aria-hidden="true"
+          hidden=""
+          checked="checked"
+        />
+        <figure>
+          <img src="https://res.cloudinary.com/dchxehkoi/image/upload/v1636044504/Captura_de_Pantalla_2021-11-04_a_la_s_10.46.27_mokjxb.png" />
+          <!-- <figcaption>
       Hola soy el figcaption
     </figcaption> -->
-  </figure>
-  <input class="open" type="radio" id="dos" name="carrusel" aria-hidden="true" hidden="">
-  <figure>
-    <img src="http://fakeimg.pl/2000x800/00BCD4/fff/?text=Imagen 2">
-  </figure>
-  <input class="open" type="radio" id="tres" name="carrusel" aria-hidden="true" hidden="">
-  <figure>
-    <img src="http://fakeimg.pl/2000x800/651FFF/fff/?text=Imagen 3">
-  </figure>
+        </figure>
+        <input
+          class="open"
+          type="radio"
+          id="dos"
+          name="carrousel-container"
+          aria-hidden="true"
+          hidden=""
+        />
+        <figure>
+          <img src="https://res.cloudinary.com/dchxehkoi/image/upload/v1636043981/45360001_doifxj.jpg" />
+        </figure>
+        <input
+          class="open"
+          type="radio"
+          id="tres"
+          name="carrousel-container"
+          aria-hidden="true"
+          hidden=""
+        />
+        <figure>
+          <img src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632155648/Mural_final-01_mp0jxf.jpg" />
+        </figure>
 
-<!--   <label for="tres" class="carrusel-nav anterior uno">‹</label>
+        <!--   <label for="tres" class="carrusel-nav anterior uno">‹</label>
   <label for="dos" class="carrusel-nav siguiente uno">›</label>
   <label for="uno" class="carrusel-nav anterior dos">‹</label>
   <label for="tres" class="carrusel-nav siguiente dos">›</label>
   <label for="dos" class="carrusel-nav anterior tres">‹</label>
   <label for="uno" class="carrusel-nav siguiente tres">›</label> -->
 
-  <ol class="carrusel-dots">
-    <li>
-      <label for="uno" class="dot">•</label>
-    </li>
-    <li>
-      <label for="dos" class="dot">•</label>
-    </li>
-    <li>
-      <label for="tres" class="dot">•</label>
-    </li>
-  </ol> 
-</section>
-
-<main class="main">
-
-
-
-  <section class="news">
-    <h2 class="news_titulo">NOTICIAS</h2>
-    <div class="news_item">
-      <img src="https://picsum.photos/100" alt="angus" class="news_img">
-      <div class="news_text">
-        <h4 class="news_headline">Wallpaper* Features Angus Hyland's Graphic Art</h4>
-        <p class="news_summary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem nisi quis.</p>
+        <ol class="carrusel-dots">
+          <li>
+            <label for="uno" class="dot">•</label>
+          </li>
+          <li>
+            <label for="dos" class="dot">•</label>
+          </li>
+          <li>
+            <label for="tres" class="dot">•</label>
+          </li>
+        </ol>
       </div>
-    </div>
+    </section>
 
-    <div class="news_item">
-      <img src="https://picsum.photos/100" alt="sonic" class="news_img">
-      <div class="news_text">
-        <h4 class="news_headline">Sonic Bloom</h4>
-        <p class="news_summary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem nisi quis.</p>
-      </div>
-    </div>
+    <main class="main">
+      <section class="news">
+        <h2 class="news_titulo">NOTICIAS</h2>
+        <div class="news_item">
+          <img src="https://picsum.photos/100" alt="angus" class="news_img" />
+          <div class="news_text">
+            <h4 class="news_headline">
+              Wallpaper* Features Angus Hyland's Graphic Art
+            </h4>
+            <p class="news_summary">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+        </div>
 
-    <div class="news_item">
-      <img src="https://picsum.photos/100" alt="serif" class="news_img">
-      <div class="news_text">
-        <h4 class="news_headline">Serif</h4>
-        <p class="news_summary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem nisi quis.</p>
-      </div>
-    </div>
+        <div class="news_item">
+          <img src="https://picsum.photos/100" alt="sonic" class="news_img" />
+          <div class="news_text">
+            <h4 class="news_headline">Sonic Bloom</h4>
+            <p class="news_summary">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+        </div>
 
-    <div class="news_item">
-      <img src="https://picsum.photos/100" alt="convolution" class="news_img">
-      <div class="news_text">
-        <h4 class="news_headline">Convolution Reverb</h4>
-        <p class="news_summary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem nisi quis.</p>
-      </div>
-    </div>
+        <div class="news_item">
+          <img src="https://picsum.photos/100" alt="serif" class="news_img" />
+          <div class="news_text">
+            <h4 class="news_headline">Serif</h4>
+            <p class="news_summary">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+        </div>
 
-  </section>
+        <div class="news_item">
+          <img
+            src="https://picsum.photos/100"
+            alt="convolution"
+            class="news_img"
+          />
+          <div class="news_text">
+            <h4 class="news_headline">Convolution Reverb</h4>
+            <p class="news_summary">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  <section class="galeria">
-   
-    <h2 class="galeria_titulo">
-      GALERÍA
-    </h2>
-    <div class="galeria_items">
+      <section class="galeria">
+        <h2 class="galeria_titulo">GALERÍA</h2>
+        <div class="galeria_items">
+          <div class="galeria__proyecto">
+            <h3>Remedios Varo</h3>
+            <img
+              src="https://res.cloudinary.com/verdepurpura98/image/upload/v1630347947/Captura_de_Pantalla_2021-08-30_a_la_s_13.25.07_gkmwld.png"
+              alt="Remedios Varo"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+          <div class="galeria__proyecto">
+            <h3 class="sr-only">LesGaiCineMad</h3>
+           <figure>
+          <img src="https://res.cloudinary.com/verdepurpura98/image/upload/v1630347948/Captura_de_Pantalla_2021-08-30_a_la_s_13.25.26_cskzk1.png" alt="Les Gai Cine Mad" />
+          <figcaption>
+            <p>LesGaiCineMad</p>
+          </figcaption>
+           </figure>
 
-    <div class="galeria__proyecto">
-      <h3>Remedios Varo</h3>
-      <img
-        src="https://res.cloudinary.com/verdepurpura98/image/upload/v1630347947/Captura_de_Pantalla_2021-08-30_a_la_s_13.25.07_gkmwld.png"
-        alt="Remedios Varo">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim
-        officiis dolorem nisi quis.</p>
-    </div>
-    <div class="galeria__proyecto">
-      <h3>LesGaiCineMad</h3>
-      <img
-        src="https://res.cloudinary.com/verdepurpura98/image/upload/v1630347948/Captura_de_Pantalla_2021-08-30_a_la_s_13.25.26_cskzk1.png"
-        alt="Les Gai Cine Mad">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim
-        officiis dolorem nisi quis.</p>
-    </div>
-    <div class="galeria__proyecto">
-      <h3>Wings Over The World</h3>
-      <img src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632155648/Spread_portada_zsshw6.jpg" alt="Wings Over The World">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim
-        officiis dolorem nisi quis.</p>
-    </div>
-    <div class="galeria__proyecto">
-      <h3>Converse Breaking Down Barriers</h3>
-      <img src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632155648/Mural_final-01_mp0jxf.jpg" alt="Converse">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim
-        officiis dolorem nisi quis.</p>
-    </div>
-    <div class="galeria__proyecto">
-      <h3>Proyecto</h3>
-      <img src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632152380/FILM_DUMP2_u2i0nh.jpg" alt="">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim
-        officiis dolorem nisi quis.</p>
-    </div>
-    <div class="galeria__proyecto">
-      <h3>Gios Antico</h3>
-      <img src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632152327/gios_low_ax2yoy.jpg" alt="Gios Antico">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rerum porro ducimus fugiat quibusdam? Ut enim
-        officiis dolorem nisi quis.</p>
-    </div>
-  </div>
-  </section>
-  <section class="contacto">
-    <p class="contacto_texto">
-      contacto.verdepurpura@gmail.com / 55 5549 559687
-    </p>
-  </section>
-</main>
-  <!-- <h2>News</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+          <div class="galeria__proyecto">
+            <h3>Wings Over The World</h3>
+            <img
+              src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632155648/Spread_portada_zsshw6.jpg"
+              alt="Wings Over The World"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+          <div class="galeria__proyecto">
+            <h3>Converse Breaking Down Barriers</h3>
+            <img
+              src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632155648/Mural_final-01_mp0jxf.jpg"
+              alt="Converse"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+          <div class="galeria__proyecto">
+            <h3>Proyecto</h3>
+            <img
+              src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632152380/FILM_DUMP2_u2i0nh.jpg"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+          <div class="galeria__proyecto">
+            <h3>Gios Antico</h3>
+            <img
+              src="https://res.cloudinary.com/verdepurpura98/image/upload/v1632152327/gios_low_ax2yoy.jpg"
+              alt="Gios Antico"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              rerum porro ducimus fugiat quibusdam? Ut enim officiis dolorem
+              nisi quis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contacto">
+        <p class="contacto_texto">
+          contacto.verdepurpura@gmail.com / 55 5549 559687
+        </p>
+      </section>
+    </main>
+    <!-- <h2>News</h2>
   <h2>Galeria</h2>
   <p>contacto:</p> -->
-  <!-- <a href="mailto:email@gmail.com">verde@gmail.com</a> -->
-</body>
+    <!-- <a href="mailto:email@gmail.com">verde@gmail.com</a> -->
+  </body>
 
+  </main>
+<section class="nosotros">
+  <h2>NOSOTROS</h2>
+  <div>
+
+  <div class="nosotros-item">
+    <img src="https://res.cloudinary.com/daa5wn4z2/image/upload/v1635185627/WhatsApp_Image_2021-10-25_at_13.08.33_vaepmg.png" alt="">
+      <h3>IKER</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos nostrum rem dolore eum nulla perferendis, ipsam, tenetur, nobis explicabo maiores pariatur soluta recusandae quis sit consequuntur accusantium molestiae in!</p>
+  </div>
+
+  <div class="nosotros-item">
+    <img src="https://res.cloudinary.com/daa5wn4z2/image/upload/v1635185627/WhatsApp_Image_2021-10-25_at_13.05.58_rfadcg.png" alt="">
+      <h3>SEBASTIAN</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos nostrum rem dolore eum nulla perferendis, ipsam, tenetur, nobis explicabo maiores pariatur soluta recusandae quis sit consequuntur accusantium molestiae in!</p>
+  </div>
+
+  <div class="nosotros-item">
+    <img src="https://res.cloudinary.com/daa5wn4z2/image/upload/v1635185628/IMG_0027_m312xc.png" alt="">
+      <h3>FERNANDA</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos nostrum rem dolore eum nulla perferendis, ipsam, tenetur, nobis explicabo maiores pariatur soluta recusandae quis sit consequuntur accusantium molestiae in!</p>
+  </div>
+
+</div>
+</section>
 </html>
