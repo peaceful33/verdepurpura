@@ -231,12 +231,11 @@ h6 {
   margin-bottom: 10px;
 }
 
-/* .galeria__proyecto {
-  flex: 1;
-  position: relative;
+.galeria__proyecto {
+min-height: 250px;
 }
 
-.galeria__proyecto img {
+/*.galeria__proyecto img {
   height: 200px;
   object-fit: cover;
 } */
@@ -248,7 +247,7 @@ h6 {
   opacity: 1;
   z-index: -1;
   transition: opacity 0.5s ease-out;
-} */
+}
 
 /* .galeria__proyecto img:hover::after {
   filter: opacity(0.5);
