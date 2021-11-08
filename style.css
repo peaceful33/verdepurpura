@@ -219,18 +219,19 @@ h6 {
   border-bottom: 3px solid var(--clr-secundario-oscuro);
   width: 50%;
 }
-.galeria_items {
+/* .galeria_items {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
-}
+} */
+
 .galeria_titulo {
   font-family: var(--ff-titulos);
   justify-content: left;
   margin-bottom: 10px;
 }
 
-.galeria__proyecto {
+/* .galeria__proyecto {
   flex: 1;
   position: relative;
 }
@@ -238,48 +239,68 @@ h6 {
 .galeria__proyecto img {
   height: 200px;
   object-fit: cover;
-}
+} */
 
-.galeria__proyecto img:after {
+/* .galeria__proyecto img:after {
   position: absolute;
   content: "";
   inset: 0;
   opacity: 1;
   z-index: -1;
   transition: opacity 0.5s ease-out;
-}
+} */
 
-.galeria__proyecto img:hover::after {
+/* .galeria__proyecto img:hover::after {
   filter: opacity(0.5);
+} */
+
+.galeria_items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  row-gap: 15px;
+  column-gap: 40px;
+}
+
+.galeria__proyecto figure {
+  position: relative;
+}
+
+.galeria__proyecto figure > * {
+  transition: all 0.4s ease-in-out;
+}
+
+.galeria__proyecto figure img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .galeria__proyecto figcaption {
+  position: absolute;
   visibility: hidden;
-  position: absolute;
   inset: 0;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  line-height: 200px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  /*   text-align: center; */
+  font-size: 2rem;
+  color: white;
+  cursor: default;
 }
 
-.galeria__proyecto img:hover figcaption {
+.galeria__proyecto p {
+  padding-block-start: 0.5rem;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.galeria__proyecto figure:hover img {
+  filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.7));
+  opacity: 0.7;
+}
+
+.galeria__proyecto figure:hover figcaption {
   visibility: visible;
-  position: absolute;
-  inset: 0;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  line-height: 200px;
-}
-
-.galeria__proyecto figcaption {
-  position: absolute;
-  inset: 0;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  line-height: 200px;
 }
 
 /* Contacto */
