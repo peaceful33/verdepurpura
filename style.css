@@ -423,7 +423,7 @@ min-height: 250px;
   max-width: 85vw;
   margin: auto;
 }
-.nosotros div {
+.nosotros_contenedor {
   display: flex;
   justify-content: space-between;
   gap: 20px;
