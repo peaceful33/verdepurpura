@@ -185,6 +185,7 @@ h6 {
 .news_headline {
   font-family: var(--ff-titulos);
   margin-bottom: 10px;
+  text-transform:uppercase;
 }
 
 .news_summary {
