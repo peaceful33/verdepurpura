@@ -491,6 +491,20 @@ min-height: 250px;
 }
 
 @media screen and (max-width: 600px) {
+  .header{
+    justify-content:center;
+
+  }
+
+  .header__logo {
+  /* TODO */
+  width: 200px;
+}
+
+  .header__menu{
+    display:none;
+  }
+
   .carrousel__titulo h1{
     font-size: 35px;
   }
@@ -528,19 +542,15 @@ min-height: 250px;
 
 .news{
   width:100%;
-  border-left: none;
   border-right:none;
+  border-bottom:none;
 }
 
 .galeria{
   width: 100%;
-  border-left: none;
-  border-right:none;
 }
 
 .contacto{
   display:none;
-  border-left: none;
-  border-right:none;
 }
 }
