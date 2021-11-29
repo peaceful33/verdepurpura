@@ -543,6 +543,16 @@ min-height: 250px;
   display:none;
 }
 
+.carrousel{
+  background:"https://res.cloudinary.com/dchxehkoi/image/upload/v1638213260/portafolio_fdr_P%C3%A1gina_04_jbcoik.jpg";
+}
+
+.carrusel-nav {
+  display:none;
+}
+
+
+
 .main {
   display: flex;
   flex-direction:column
