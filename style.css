@@ -424,9 +424,10 @@ min-height: 250px;
   margin: auto;
   column-gap: 20px;
   row-gap: 50px;
+  margin-bottom: 100px;
 }
 .nosotros h2 {
-  text-align: center;
+  text-align:left;
   padding-top: 40px;
   /* padding-bottom: 40px; */
 }
