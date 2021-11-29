@@ -488,3 +488,58 @@ min-height: 250px;
 .sr-only {
   display: none;
 }
+
+@media screen and (max-width: 600px) {
+  .carrousel__titulo h1{
+    font-size: 35px;
+  }
+  .carrousel__titulo h2{
+    font-size: 30px;
+  }
+  .carrousel__titulo button {
+    border-radius: 50px;
+    justify-self: center;
+    background: var(--clr-primario);
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 10pt;
+    border-style: none;
+    text-transform: uppercase;
+  }
+
+  .carrousel-container figure img{
+  display:none;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* https://browserdefaultstyles.com */
+.carrousel__imagen {
+  display:none;
+}
+
+.main {
+  display: flex;
+  flex-direction:column
+}
+
+.news{
+  width:100%;
+  border-left: none;
+  border-right:none;
+}
+
+.galeria{
+  width: 100%;
+  border-left: none;
+  border-right:none;
+}
+
+.contacto{
+  display:none;
+  border-left: none;
+  border-right:none;
+}
+}
