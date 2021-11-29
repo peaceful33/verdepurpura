@@ -436,7 +436,7 @@ min-height: 250px;
   display: grid;
   place-content: start;
   gap: 10px;
-  border: 1px solid;
+
 }
 .nosotros img {
   object-fit: contain;
