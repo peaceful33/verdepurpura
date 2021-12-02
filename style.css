@@ -455,7 +455,8 @@ min-height: 250px;
 
 .footer{
   border-top: 3px solid var(--clr-secundario-oscuro);
-
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Esto es desktop */
