@@ -457,6 +457,7 @@ min-height: 250px;
   border-top: 3px solid var(--clr-secundario-oscuro);
   display: flex;
   justify-content: space-between;
+  margin: 30px 60px;
 }
 
 /* Esto es desktop */
